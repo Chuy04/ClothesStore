@@ -1,0 +1,209 @@
+/* Parte del codigo que cambia el fondo de la pagina.
+   Se utiliza el comando background-color: COLOR;*/
+html{
+    background-color: khaki;
+}
+
+/* Parte del codigo que da diseño a la parte de arriba de la pagina
+   donde se la imagen de la pagina, el nombre y la lista*/
+
+/* Parte del codigo que da diseño a la division de la parte de arriba
+   aqui se da color a la division y tambien el espacio que ocupa*/ 
+
+   .DivArriba {
+    width: auto;
+    height: 200px;
+    background-color: rgb(255, 246, 66);
+    border: 10px solid rgb(137, 246, 44);
+
+}
+
+/* Parte del codigo que da diseño a la imagen de la parte de arriba */ 
+    .Leavanny{
+        position: relative; /* Relative: Valor predeterminado, los elementos se renderizan en orden*/
+        left: 20px;
+        top:20px;
+    }
+
+/* Parte del codigo que da diseño a la palabra Tienda de Ropa*/
+    .Tienda {
+        position: relative; /* Relative: Valor predeterminado, los elementos se renderizan en orden*/
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        top: -130px;
+        left: 200px;
+    }
+
+/* Parte del codigo que da diseño a la palabra Leavanny*/
+    .NomTienda{
+        position: relative; /* Relative: Valor predeterminado, los elementos se renderizan en orden*/
+        left: 210px;
+        top: -120px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+/* Parte del codigo que da diseño a la lista*/
+    .ListaArriba{
+        position: relative; /* Relative: Valor predeterminado, los elementos se renderizan en orden*/
+        /* Mas sobre los valores de position: https://www.w3schools.com/cssref/pr_class_position.asp*/
+        text-align: right;
+        top: -130px;
+        word-spacing: 20px; /* Comando que determina el espacio que va a haber entre palabras */
+        font-family: Arial, Helvetica, sans-serif;
+        right: 50px;
+    }
+
+/* Parte del codigo que da diseño a la parte de arriba de la pagina
+   donde se la imagen de la pagina, el nombre y la lista*/
+
+        /* Parte del codigo que da diseño a la imagen de la pagina index*/
+        .Imagen{
+            text-align: center;
+            padding: 100px;
+        }
+        /* Parte del codigo que da diseño a la imagen de la pagina index*/
+
+            /* Parte que modifica la palabra Leavanny nombre de la tienda en la pagina de about*/
+            .NomTiendaAbout{
+                position: relative; /* Relative: Valor predeterminado, los elementos se renderizan en orden*/
+                left: 150px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+            }
+            /* Parte que modifica la palabra Leavanny nombre de la tienda en la pagina de about */
+
+            /* Parte que modifica el primer parrafo de la pagina about */
+            .P1About{
+                position: relative; /* Relative: Valor predeterminado, los elementos se renderizan en orden*/
+                left: 200px;
+                width: 300px;
+                text-align: justify;
+                font-size: 18px;
+                word-spacing: 3px;
+            }
+            /* Parte que modifica el primer parrafo de la pagina about */
+
+            /* Parte que modifica el segundo parrafo de la pagina about */
+            .P2About{
+                position: relative; /* Relative: Valor predeterminado, los elementos se renderizan en orden*/
+                top: 20px;
+                left: 205px;
+                width: 300px;   
+                text-align: justify;
+                font-size: 18px;
+                word-spacing: 3px;
+            }
+            /* Parte que modifica el segundo parrafo de la pagina about */
+
+            /* Parte que modifica el tercer parrafo de la pagina about */
+            .P3About{
+                position: relative; /* Relative: Valor predeterminado, los elementos se renderizan en orden*/
+                top: -325px;
+                left: 800px;
+                width: 300px;
+                text-align: justify;
+                font-size: 18px;
+                word-spacing: 3px;
+            }
+            /* Parte que modifica el tercer parrafo de la pagina about */
+
+            /* Parte que modifica el cuarto parrafo de la pagina about */
+            .P4About{
+                position: relative; /* Relative: Valor predeterminado, los elementos se renderizan en orden*/
+                top: -305px;
+                left: 800px;
+                width: 300px;   
+                text-align: justify;
+                font-size: 18px;
+                word-spacing: 3px;
+            }
+            /* Parte que modifica el cuarto parrafo de la pagina about */
+
+            /* Parte que modifica las imagenes de la pagina about */
+            div.gallery {
+                margin: 5px;
+                margin-left: 200px;
+                margin-top: -200px;;
+                width: 180px;
+            }
+            /* Parte que modifica las imagenes de la pagina about */
+            
+            /* Parte que modifica la primer imagen de la pagina about */
+            .IMG1About{
+                position: relative;
+                top: -550px;
+                left: 450px;
+            }
+            /* Parte que modifica la primer imagen de la pagina about */
+
+            /* Parte que modifica la segunda imagen de la pagina about */
+            .IMG2About{
+                position: relative;
+                top: -600px;
+            }
+            /* Parte que modifica la segunda imagen de la pagina about */
+
+
+                .Ropa{
+                    position: relative;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 40px;
+                    left: 50px;
+                }
+                .Pantalon{
+                    position: relative;
+                    left: 200px;
+                    top: 50px;
+                }
+
+                .PantalonT{
+                    position: relative;
+                    left: 550px;
+                    top: -250px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+                }
+
+                .Playera{
+                    position: relative;
+                    left: 200px;
+                }
+
+                .PlayeraT{
+                    position: relative;
+                    left: 550px;
+                    top: -250px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+                }
+
+                .Tenis{
+                    position: relative;
+                    left: 200px;
+                }
+
+                .TenisT{
+                    position: relative;
+                    left: 550px;
+                    top: -250px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+                }
+
+
+                        .Cont{
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 30px;
+                        }
+
+                        .Formulario{
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 20px;
+                        }
+
+.Pie{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: end;
+    float:right;
+}
